@@ -19,15 +19,19 @@ const navi = document.querySelectorAll('a');
 
 navi[0].addEventListener('afterprint', function (event) {
     event.target.style.border = '2px #da3246'
+    event.preventDefault();
 });
 navi[1].addEventListener('afterprint', function (event) {
     event.target.style.border = '2px #da3246'
+    event.preventDefault();
 });
 navi[2].addEventListener('afterprint', function (event) {
     event.target.style.border = '2px #da3246'
+    event.preventDefault();
 });
 navi[3].addEventListener('afterprint', function (event) {
     event.target.style.border = '2px #da3246'
+    event.preventDefault();
 });
 
 //4
